@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felipe Matos - Data Analyst</title>
+  <meta name="description" content="Portfólio de Seu Nome — projetos, habilidades e contato.">
+
+  <!-- Ícones (Font Awesome via CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="alternate icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta name="theme-color" content="#100c1c">
+</head>
+<body>
+
+  <!-- ========== CABEÇALHO ========== -->
+  <header id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">
+        <span class="logo-bars" aria-hidden="true"><i></i><i></i><i></i></span>F<span>M</span>
+      </a>
+
+      <nav id="nav">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#historico">Histórico</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button id="menu-btn" aria-label="Abrir menu" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== INÍCIO ========== -->
+    <section id="inicio" class="hero">
+      <div class="container">
+        <h1>Felipe <span>Matos</span></h1>
+        <p class="hero-role">Data Analyst</p>
+        <p class="typewriter">
+          <span id="typewriter"></span><span class="cursor"></span>
+        </p>
+        <div class="hero-buttons">
+          <a href="#projetos" class="btn btn-primary"><i class="fas fa-code"></i> Meus Projetos</a>
+          <a href="#contato" class="btn btn-outline"><i class="far fa-comment"></i> Fale Comigo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section id="sobre" class="reveal">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="about">
+          <img src="assets/IMG_8620.JPEG" alt="Sua foto" class="avatar">
+          <!-- <div class="avatar avatar-placeholder">SN</div> -->
+
+          <div class="about-text">
+            <p>
+              Sou estagiário em dados com atuação efetiva em <strong>Analytics, Automação e Visualização de Dados</strong>, auxiliando a equipe de negócio em aproveitar mais o tempo na tomada de decisão. Tenho experiência em <strong>SQL, Python, AWS Athena, AWS Glue, QuickSight, Power BI, Looker Studio, Share Point e Power Automate</strong>, além da modernização de rotinas, visualização de dados para soluções de dados de grande escala. Atualmente estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong>, combinando visão analítica, visão do negócio e automação para gerar valor através de dados
+              
+            </p>
+            <a href="assets/CV_FELIPE.pdf" download class="btn btn-primary">
+              <i class="fas fa-download"></i> Baixar Currículo
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HISTÓRICO ========== -->
+    <section id="historico" class="reveal">
+      <div class="container">
+        <h2 class="section-title">Histórico Profissional</h2>
+
+        <div class="tabs" role="tablist">
+          <button class="tab-btn active" data-tab="experiencias" role="tab">
+            <i class="fas fa-briefcase" aria-hidden="true"></i> Experiências
+          </button>
+          <button class="tab-btn" data-tab="formacao" role="tab">
+            <i class="fas fa-graduation-cap" aria-hidden="true"></i> Formação
+          </button>
+        </div>
+
+        <!-- ===== EXPERIÊNCIAS =====
+             Para adicionar uma empresa: copie um <article class="timeline-item"> inteiro.
+             Para adicionar um cargo na mesma empresa: copie um <div class="role-entry">.
+             Cores do ícone: mark-orange, mark-blue, mark-cyan (ou nenhuma = roxo). -->
+        <div id="experiencias" class="tab-panel active">
+          <div class="career-timeline">
+
+            <!-- Empresa atual -->
+            <article class="timeline-item current-position">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <header class="company-heading">
+                  <span class="company-mark mark-orange" aria-hidden="true"><i class="fas fa-building-columns"></i></span>
+                   <div>
+                    <h3>Itaú Unibanco</h3>
+                    <span class="company-area">Dados & Analytics</span>
+                  </div>
+                  <span class="career-status"><span aria-hidden="true"></span> Atual</span>
+                </header>
+
+                <div class="role-entry current-role">
+                  <span class="timeline-date">Dez/2024 - Atual</span>
+                  <h4>Estágio - Dados & Analytics</h4>
+                  <div class="career-tags"><span>Python</span><span>SQL</span><span>DataViz</span><span>AWS Athena</span><span>AWS Glue</span><span>SharePoint</span><span>Power Automate</span><span>Pyspark</span><span>Gen AI</span><span>Análise de Dados</span></div>
+                </div>
+                <!-- <div class="role-entry">
+                  <span class="timeline-date">Jan/2024 - Jan/2025</span>
+                  <h4>Estágio - Cargo Anterior</h4>
+                </div>
+              </div> -->
+            </article>
+
+            <!-- Empresa com mais de um cargo -->
+            <article class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <header class="company-heading">
+                  <span class="company-mark mark-blue" aria-hidden="true"><i class="fas fa-hand-holding-heart"></i></span>
+                  <div>
+                    <h3>Associação Parceiros da Educação</h3>
+                    <span class="company-area">Dados</span>
+                  </div>
+                </header>
+
+                <div class="role-entry">
+                  <span class="timeline-date">Out/2023 - Nov/2024</span>
+                  <h4>Estágio - Dados</h4>
+                  <div class="career-tags"><span>Excel Avançado</span><span>Power BI</span></div>
+                <!-- <div class="role-entry">
+                  <span class="timeline-date">Jun/2022 - Abr/2023</span>
+                  <h4>Jovem Aprendiz - Cargo Exemplo</h4>
+                </div>
+              </div> -->
+            </article>
+
+            <!-- Empresa mais antiga -->
+            <article class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <header class="company-heading">
+                  <span class="company-mark" aria-hidden="true"><i class="fas fa-shirt"></i></span>
+                  <div>
+                    <h3>Veste S/A Estilo</h3>
+                    <span class="company-area">Atendimento Atacado</span>
+                  </div>
+                </header>
+
+                <div class="role-entry">
+                  <span class="timeline-date">Jun/2023 - Out/2023</span>
+                  <h4>Jovem Aprendiz - Atendimento</h4>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- ===== FORMAÇÃO ===== -->
+        <div id="formacao" class="tab-panel">
+          <div class="career-timeline">
+
+            <!-- Curso em andamento -->
+            <article class="timeline-item current-position">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <header class="company-heading">
+                  <span class="company-mark" aria-hidden="true"><i class="fas fa-laptop-code"></i></span>
+                  <div>
+                    <span class="degree-type">Tecnólogo</span>
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
+                  </div>
+                </header>
+                <div class="degree-info">
+                  <p>Centro Universitário SENAC</p>
+                  <span class="timeline-date">2024 - Dez/2026</span>
+                  <span class="degree-status">Cursando</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Curso concluído -->
+            <!-- <article class="timeline-item">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <header class="company-heading">
+                  <span class="company-mark mark-blue" aria-hidden="true"><i class="fas fa-code"></i></span>
+                  <div>
+                    <span class="degree-type">Técnico</span>
+                    <h3>Nome do Curso Técnico</h3>
+                  </div>
+                </header>
+                <div class="degree-info">
+                  <p>Nome da Escola</p>
+                  <span class="timeline-date">Jul/2021</span>
+                  <span class="degree-status completed"><i class="fas fa-check" aria-hidden="true"></i> Concluído</span>
+                </div>
+              </div>
+            </article> -->
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== HABILIDADES ========== -->
+    <section id="habilidades" class="reveal">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">Todas</button>
+          <button class="filter-btn" data-filter="frontend">Front-End</button>
+          <button class="filter-btn" data-filter="dados">Dados</button>
+          <button class="filter-btn" data-filter="nocode">No/Low Code</button>
+          <button class="filter-btn" data-filter="ferramentas">Ferramentas</button>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill" data-category="frontend"><i class="fab fa-html5"></i><span>HTML5</span></div>
+          <div class="skill" data-category="frontend"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+          <div class="skill" data-category="frontend backend"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+          <div class="skill" data-category="backend dados"><i class="fab fa-python"></i><span>Python</span></div>
+          <div class="skill" data-category="dados"><i class="fas fa-database"></i><span>SQL</span></div>
+          <div class="skill" data-category="dados"><i class="fas fa-chart-column"></i><span>Data Viz</span></div>
+          <div class="skill" data-category="nocode"><i class="fab fa-microsoft"></i><span>Power Automate</span></div>
+          <div class="skill" data-category="nocode"><i class="fab fa-google"></i><span>Google Sites</span></div>
+          <div class="skill" data-category="ferramentas"><i class="fab fa-git-alt"></i><span>Git</span></div>
+          <div class="skill" data-category="ferramentas"><i class="fab fa-github"></i><span>GitHub</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJETOS ========== -->
+    <section id="projetos" class="reveal">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+             <img src="assets/projeto1.jpeg" alt="Projeto 1" class="project-img">
+            <!-- <div class="project-img project-img-placeholder"><i class="fas fa-laptop-code"></i></div> -->
+            <div class="project-info">
+              <h3>Portfólio de Apresentação em Slides</h3>
+              <p>Portfólio em formato de apresentação de slides, com versão desktop e mobile. Reúne trajetória, experiências e projetos em um único link, que serve tanto para enviar quanto para apresentar ao vivo.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="https://felipematos.netlify.app/" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Ver ao Vivo</a>
+                <a href="https://github.com/un3sc/portfolio-slide-template.git" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Código</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-img project-img-placeholder"><i class="fas fa-chart-line"></i></div>
+            <div class="project-info">
+              <h3>Tratamento de Redações — EQ</h3>
+              <p>Pipeline em Python que unifica redações corrigidas de duas plataformas (Plurall e EduQz) em uma base padronizada e atualiza o Google Sheets automaticamente. Base final com 1.947 redações, 455 alunos e 20 temas.</p>
+              <div class="tags"><span>Python</span><span>Pandas</span><span>Google Sheets API</span></div>
+              <div class="project-links">
+                <!-- <a href="" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Ver ao Vivo</a> -->
+                <a href="https://github.com/un3sc/tratamento-redacoes-eq-2025.git" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Código</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- <article class="project-card">
+            <div class="project-img project-img-placeholder"><i class="fas fa-mobile-screen"></i></div>
+            <div class="project-info">
+              <h3>Nome do Projeto 3</h3>
+              <p>Uma breve descrição do que o projeto faz e qual problema resolve.</p>
+              <div class="tags"><span>JavaScript</span><span>Firebase</span></div>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Ver ao Vivo</a>
+                <a href="#" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Código</a>
+              </div>
+            </div>
+          </article> -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTATO ========== -->
+    <section id="contato" class="reveal">
+      <div class="container contact">
+        <h2 class="section-title">Vamos Conversar?</h2>
+        <p>Estou aberto a novas oportunidades e colaborações. Fique à vontade para entrar em contato!</p>
+
+        <div class="contact-buttons">
+          <a href="mailto:fematosoliver1@gmail.com" class="btn btn-primary"><i class="far fa-envelope"></i> Enviar E-mail</a>
+          <button id="copy-email" class="btn btn-outline" data-email="fematosoliver1@gmail.com">
+            <i class="far fa-copy"></i> <span>Copiar E-mail</span>
+          </button>
+        </div>
+
+        <div class="social">
+          <a href="https://www.linkedin.com/in/felipe-matoss/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/un3sc" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Felipe Matos Oliveira</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
